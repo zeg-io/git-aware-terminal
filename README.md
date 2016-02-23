@@ -15,17 +15,20 @@ A currently **detached** repo:<br>![Pending commit](md_images/detached.png) |
 
 ## Installation
 
-1. Edit your bash config.  In OSX it is located here: `~/.bash_profile`.<br>
-   Add the following to the top of your file and save it:<br>
+1. `cd ~/`
+2. `git clone https://github.com/zeg-io/git-aware-terminal.git`<br>
+   **- OR -**<br>
+   Download and save `git-aware-terminal.bash` to your `~/` directory or wherever you like.
+3. Edit your bash config.  In OSX it is located here: `~/.bash_profile`.<br>
+   Add the following to the top of your file and save it. Clearly you can change the path of the script to wherever you clone the repo to if you'd like.
 
    ```
-   if [ -f ~/.git-aware-terminal.bash ]; then
-       . ~/.git-aware-terminal.bash
+   if [ -f ~/git-aware-terminal/git-aware-terminal.bash ]; then
+       . ~/git-aware-terminal/git-aware-terminal.bash
    fi
    PROMPT_COMMAND="parse_git_branch"
    ...
    ```
    
-2. Ensure that you aren't already using `PROMPT_COMMAND=` and if you are, just add `parse_git_branch; ...` to it.
-3. Download and save `.git-aware-terminal.bash` to your `~/` directory.
-4. Run `. ~/.bash_profile` to reload your terminal and enable the newly added code, or close your terminal and restart it.
+   Ensure that you aren't already using `PROMPT_COMMAND=` and if you are, just add `parse_git_branch; ...` to it.
+5. Run `. ~/.bash_profile` to reload your terminal and enable the newly added code, or close your terminal and restart it.
