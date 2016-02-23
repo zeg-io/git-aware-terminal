@@ -15,8 +15,8 @@ A currently **detached** repo:<br>![Pending commit](md_images/detached.png) |
 
 ## Installation
 
-1. Edit your bash config.  In OSX it is located here: `~/.bash_profile`.
-   Add the following to the top of your file and save it:
+1. Edit your bash config.  In OSX it is located here: `~/.bash_profile`.<br>
+   Add the following to the top of your file and save it:<br>
    ```
    if [ -f ~/.git-aware-terminal.bash ]; then
      . ~/.git-aware-terminal.bash
