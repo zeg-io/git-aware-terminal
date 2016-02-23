@@ -3,7 +3,7 @@ At Zetta we love Git.  It's like adding a third dimension to your world when you
 
 **Enter the Git Aware Terminal.**
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/GehGKYH_-OM" frameborder="0" allowfullscreen></iframe>
+![Video demo](https://youtu.be/GehGKYH_-OM "Git Aware Terminal")
 
 It is a little scripting combined with a little design to yeild a much more usable git experience.
 
