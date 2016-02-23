@@ -20,7 +20,7 @@ A currently **detached** repo:<br>![Pending commit](md_images/detached.png) |
 
    ```
    if [ -f ~/.git-aware-terminal.bash ]; then
-     . ~/.git-aware-terminal.bash
+       . ~/.git-aware-terminal.bash
    fi
    PROMPT_COMMAND="parse_git_branch"
    ...
