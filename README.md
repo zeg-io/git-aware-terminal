@@ -15,7 +15,7 @@ A currently **detached** repo:<br>![Pending commit](md_images/detached.png) |
 
 ## Installation
 
-1. `cd ~/`
+1. `cd ~/` (or wherever you'd like the directory to be created)
 2. `git clone https://github.com/zeg-io/git-aware-terminal.git`<br>
    **- OR -**<br>
    Download and save `git-aware-terminal.bash` to your `~/` directory or wherever you like.
