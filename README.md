@@ -1,7 +1,7 @@
 # Git Aware Terminal
 At Zetta we love Git.  It's like adding a third dimension to your world when you've been living in two.  However, as powerful as it is, it requires a great deal of effort to learn and be effective at, and even if you are already a git master it still takes extra seconds here and there to maintain your awareness of what status your project is in.
 
-Enter the Git Aware Terminal.
+**Enter the Git Aware Terminal.**
 
 It is a little scripting combined with a little design to yeild a much more usable git experience.
 
