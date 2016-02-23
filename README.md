@@ -2,6 +2,9 @@
 At Zetta we love Git.  It's like adding a third dimension to your world when you've been living in two.  However, as powerful as it is, it requires a great deal of effort to learn and be effective at, and even if you are already a git master it still takes extra seconds here and there to maintain your awareness of what status your project is in.
 
 **Enter the Git Aware Terminal.**
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=GehGKYH_-OM
+" target="_blank"><img src="http://img.youtube.com/vi/GehGKYH_-OM/0.jpg" 
+alt="Review" width="240" height="180" border="10" /></a>
 
 It is a little scripting combined with a little design to yeild a much more usable git experience.
 
