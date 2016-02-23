@@ -7,11 +7,11 @@ It is a little scripting combined with a little design to yeild a much more usab
 
 Git aware prompt views | &nbsp;
 ------- | --------
-Our **non-git directory** prompt looks like this. Git is not initialized for this directory: ![Basic terminal](md_images/no-git.png) | When we go into our **git project** directory: ![Git terminal](md_images/git-master.png)
-An **untracked** file: ![untracked file](md_images/untracked.png) | A **modified**, unadded file: ![File Delta](md_images/delta.png)
-A file **pending commit**: ![Pending commit](md_images/pending-commit.png) | Post commit we are now **one commit ahead** of remote origin: ![One ahead](md_images/1-ahead.png)
-A coworker just pushed a change, now after a fetch we se we're **behind by one**: ![One behind](md_images/git-behind.png) | Just created a **new local branch** that doesn't exist on remote:![New branch](md_images/new-branch.png)
-A currently **detached** repo: ![Pending commit](md_images/detached.png) | 
+Our **non-git directory** prompt looks like this. Git is not initialized for this directory:<br>![Basic terminal](md_images/no-git.png) | When we go into our **git project** directory:<br>![Git terminal](md_images/git-master.png)
+An **untracked** file:<br>![untracked file](md_images/untracked.png) | A **modified**, unadded file:<br>![File Delta](md_images/delta.png)
+A file **pending commit**:<br>![Pending commit](md_images/pending-commit.png) | Post commit we are now **one commit ahead** of remote origin:<br>![One ahead](md_images/1-ahead.png)
+A coworker just pushed a change, now after a fetch we se we're **behind by one**:<br>![One behind](md_images/git-behind.png) | Just created a **new local branch** that doesn't exist on remote:![New branch](md_images/new-branch.png)
+A currently **detached** repo:<br>![Pending commit](md_images/detached.png) | 
 
 ## Installation
 
