@@ -104,7 +104,7 @@ parse_git_branch() {
             echo -e -n $c_push_status_bg$c_push_status_fg" ⇡⇣ " # ⇡⇣ 𐠯
         fi
         if [ ! -z "$branch_ahead_behind" ]; then
-            echo -e -n $c_push_status_bg$c_push_status_fg" ${branch_ahead_behind}${branch_position}⇣${ff_msg} " # ⇡⇣ 𐠯
+            echo -e -n $c_push_status_bg$c_push_status_fg" ${branch_ahead_behind}${branch_position}⇡${ff_msg} " # ⇡⇣ 𐠯
         fi
         echo -e -n $c_branch_bg$git_branch" "
         echo -e -n $c_cls$c_branch_sep" "
