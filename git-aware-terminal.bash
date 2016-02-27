@@ -36,7 +36,7 @@ find_git_branch() {
             branch_symbol=' ✇ '
         else
             # check remote branch exists
-            if [ ! `git b -r --list origin/${branch}` ]; then
+            if [ ! `git branch -r --list origin/${branch}` ]; then
                 branch_symbol='\033[38;5;160m ᚶ '
             else
                 branch_symbol=' ᚶ '
