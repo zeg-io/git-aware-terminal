@@ -1,4 +1,10 @@
-# Git Aware Terminal
+# Deprication Warning
+This project still works but is no longer being maintained.  This would make us cry as well, except the reason we are depricating it is because we have the same functionality in a much easier to use container:
+
+[https://www.npmjs.com/package/git-aware-terminal](https://www.npmjs.com/package/git-aware-terminal)
+
+
+## Git Aware Terminal
 At Zetta we love Git.  It's like adding a third dimension to your world when you've been living in two.  However, as powerful as it is, it requires a great deal of effort to learn and be effective at, and even if you are already a git master it still takes extra seconds here and there to maintain your awareness of what status your project is in.
 
 **Enter the Git Aware Terminal.**
